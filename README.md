@@ -1,46 +1,61 @@
-NFT Management API
-The NFT Management API is a RESTful API that allows users to manage Non-Fungible Tokens (NFTs). It provides endpoints for authentication, creating, reading, and updating NFTs.
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  
+</head>
+<body>
+  <h1>NFT Management API</h1>
 
-Features
-    • User authentication using JSON Web Tokens (JWT)
-    • Secure storage of NFT data with encryption
-    • CRUD (Create, Read, Update, Delete) operations for NFTs
-    • Access control through authentication middleware
+  <h2>Features</h2>
+  <ul>
+    <li>User authentication using JSON Web Tokens (JWT)</li>
+    <li>Secure storage of NFT data with encryption</li>
+    <li>CRUD (Create, Read, Update, Delete) operations for NFTs</li>
+    <li>Access control through authentication middleware</li>
+  </ul>
 
-Technologies Used
-    • Node.js
-    • Express.js
-    • MongoDB (or any other database)
-    • JSON Web Tokens (JWT) for authentication
-    • Encryption for secure data storage
-    • Mocha and Chai for testing
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>MongoDB (or any other database)</li>
+    <li>JSON Web Tokens (JWT) for authentication</li>
+    <li>Encryption for secure data storage</li>
+    <li>Mocha and Chai for testing</li>
+  </ul>
 
-Getting Started
-    1. Clone the repository:
-       git clone <repository_url>
-    2. Install the dependencies:
-       npm install
-    3. Set up the environment variables:
-        ◦ Create a .env file based on the .env.example file.
-        ◦ Configure the environment variables for the database connection, JWT secret, etc.
-    4. Run the application:
-       npm start
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Clone the repository: <code>git clone &lt;repository_url&gt;</code></li>
+    <li>Install the dependencies: <code>npm install</code></li>
+    <li>Set up the environment variables:
+      <ul>
+        <li>Create a <code>.env</code> file based on the <code>.env.example</code> file.</li>
+        <li>Configure the environment variables for the database connection, JWT secret, etc.</li>
+      </ul>
+    </li>
+    <li>Run the application: <code>npm start</code></li>
+  </ol>
 
-API Endpoints
-    • POST /login: Authenticate the user and generate a JWT token.
-    • POST /createUser: Create a new user.
-    • GET /nfts: Retrieve a list of all NFTs.
-    • GET /nfts/:id: Retrieve a single NFT by ID.
-    • POST /nfts: Create a new NFT.
-    • PUT /nfts/:id: Update an existing NFT by ID.
+  <h2>API Endpoints</h2>
+  <ul>
+    <li><code>POST /login</code>: Authenticate the user and generate a JWT token.</li>
+    <li><code>POST /createUser</code>: Create a new user.</li>
+    <li><code>GET /nfts</code>: Retrieve a list of all NFTs.</li>
+    <li><code>GET /nfts/:id</code>: Retrieve a single NFT by ID.</li>
+    <li><code>POST /nfts</code>: Create a new NFT.</li>
+    <li><code>PUT /nfts/:id</code>: Update an existing NFT by ID.</li>
+  </ul>
 
-Testing
-To run the tests, use the following command:
-npm test
+  <h2>Testing</h2>
+  <p>To run the tests, use the following command:</p>
+  <code>npm test</code>
 
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+  <h2>Contributing</h2>
+  <p>Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.</p>
 
-License
-MIT License
-Feel free to customize the README file as per your specific project requirements.
+  <h2>License</h2>
+  <p>MIT License</p>
+</body>
+</html>
